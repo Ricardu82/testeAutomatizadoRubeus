@@ -1,0 +1,25 @@
+import urllib.request
+
+def testarEstrutura(url):
+
+    resposta = urllib.request.urlopen(url)
+
+    html = resposta.read().decode("utf-8")
+
+// Lista de tags
+    tags = ["<html>", "<head>", "<body>", "<header>", "<nav>", "<main>", "<footer>"]
+
+    for tag in tags:
+        if tag in html:
+            print("Tag encontrada:", tag)
+        else:
+            print("Tag não encontrada:", tag)
+
+// Sites para analisar
+sites = [
+    "https://qualidade.apprbs.com.br/certificacao",
+    "https://qualidade.apprbs.com.br/site"
+]
+
+for site in sites:
+    testarEstrutura(site)
