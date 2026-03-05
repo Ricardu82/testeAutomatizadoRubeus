@@ -1,0 +1,15 @@
+Após rodar o código deve receber na linha de comando a informação das tags que foram e as que não foram encontradas como segue abaixo:
+Tag encontrada: <!DOCTYPE html>
+Tag encontrada: <head>
+Tag encontrada: <body>
+Tag não encontrada: <header>
+Tag não encontrada: <nav>
+Tag não encontrada: <main>
+Tag não encontrada: <footer>
+Tag encontrada: <!DOCTYPE html>
+Tag encontrada: <head>
+Tag encontrada: <body>
+Tag não encontrada: <header>
+Tag não encontrada: <nav>
+Tag não encontrada: <main>
+Tag não encontrada: <footer>
